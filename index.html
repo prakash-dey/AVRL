@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <div class="container header">
+            <h2>Prakash's Weather App</h2>
+            <div class="serch-bar">
+                <input type="text" placeholder="city name" id="search-inp">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container main">
+            <aside>
+                <select name="Cities" id="cities">
+                    <option value="London">London</option>
+                    <option value="New York">New York</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Las Vegas">Las Vegas</option>
+                </select>
+                <button id="get-weather">Get Weather</button>
+            </aside>
+            <div class="right-border">
+            </div>
+            <div class="main-cont">
+                <p class="no-data">No Data</p>
+
+                
+                
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+    <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+</body>
+</html>
